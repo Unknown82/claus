@@ -1,0 +1,210 @@
+/* ------ Spezifikation ------ */
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+	color: #2d3033;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+	line-height: 1.06em;
+    font-weight: 700;
+}
+
+h1 {
+	font-size: 37px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+.btn {
+    background: #EFE407;
+    color: #387FCC;
+    font-weight: 700;
+    border: 2px solid #EFE407;
+}
+
+.btn:hover {
+    background: #387FCC;
+    color: #EFE407;
+    border: 2px solid #EFE407;
+}
+
+
+/* ------ Header ------ */
+
+
+.upper {
+    background-color: #387FCC;
+    padding: 10px 0;
+}
+
+.upper-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper-menu__item {
+    color: #fff;
+    padding: 29px 10px;
+}
+
+.upper-menu__item:hover, .upper-menu__item:focus {
+    background: #EFE407;
+    padding: 29px 10px;
+}
+
+.under {
+    background: #fff url(../img/header.png) no-repeat center top;
+}
+
+.under-wrap {
+    background-color: #fff;
+    max-width: 100%;
+    margin-top: 409px;
+    padding: 60px 50px 80px;
+    border-radius: 5px;
+  
+}
+
+.under-wrap__title {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.under-wrap__text {
+    text-align: center;
+    color: #387FCC;
+    margin-bottom: 15px;
+}
+
+.under-wrap__span {
+    text-align: center;
+    font-weight: 700;
+}
+
+.under-wrap__img {
+    max-width: 100%;
+}
+
+
+/* ------ 2 Bildschirm ------ */
+
+
+.transport {
+    background: #f5f4f4;
+    padding: 100px 0;
+}
+
+.transport__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.transporte {
+    background: #fff;
+	text-align: center;
+	width: 340px;
+	height: 320px;
+	padding: 35px 20px 15px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+	box-shadow: 5px 5px 15px -15px black;
+	box-shadow: 0 2px 7px 0 rgba(10,10,10,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.transporte:hover {
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.07);
+}
+
+.transporte-title {
+    color: #387FCC;
+	text-align: center;
+	font-weight: 700;
+    display: block;
+}
+
+.transporte-text__preis {
+    display: block;
+	font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.transporte-text {
+
+}
+
+.transporte-text__preis {
+
+}
+.transporte__description {
+    width: 340px;
+	background: #387FCC;
+	text-align: center;
+    padding: 25px 20px 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 2px 7px 0 rgba(10,10,10,.05), 3px 27px 54px -34px rgba(0,0,0,.47);
+    margin: 0 auto;
+}
+
+.transporte__description:hover{
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.07);
+}
