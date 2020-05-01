@@ -95,18 +95,17 @@ button, button:hover, button:focus, button:active
 
 .upper-menu {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
 .upper-menu__item {
     color: #fff;
-    padding: 29px 10px;
+    padding: 29px 20px;
 }
 
 .upper-menu__item:hover, .upper-menu__item:focus {
     background: #EFE407;
-    padding: 29px 10px;
+    padding: 29px 20px;
 }
 
 .under {
