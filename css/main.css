@@ -226,18 +226,18 @@ button, button:hover, button:focus, button:active
 	padding-top: 100px;
 }
 
-.kont__wrap {
+.footer__wrap {
 	margin-bottom: 45px;
 }
 
-.kont__title {
+.footer__title {
 	font-weight: 700;
 	color: #fff;
 	display: block;
 	margin-bottom: 16px;
 }
 
-.kont__item {
+.footer__item {
 	font-size: 14px;
 	font-weight: 300;
 	color: #fff;
@@ -245,7 +245,7 @@ button, button:hover, button:focus, button:active
     margin-bottom: 10px;
 }
 
-.kont__item:hover {
+.footer__item:hover {
 	color: #EFE407;
 }
 
@@ -265,10 +265,10 @@ button, button:hover, button:focus, button:active
 /* 768-992px */
 @media screen and (max-width: 992px) {
 
-	.kont__wrap {
+	.footer__wrap {
 		text-align: center;
 	}
-	.kont__item {
+	.footer__item {
 		text-align: center;
 	}
 }
