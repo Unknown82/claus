@@ -142,7 +142,7 @@ button, button:hover, button:focus, button:active
 }
 
 
-/* ------ 2 Bildschirm ------ */
+/* ------ 2 transport ------ */
 
 
 .transport {
@@ -203,4 +203,84 @@ button, button:hover, button:focus, button:active
 
 .transporte__description:hover{
 	box-shadow: 0 3px 10px 0 rgba(0,0,0,.07);
+}
+
+
+/* ------ 3 wissen ------ */
+
+
+.wissen {
+    padding: 100px 0;
+}
+
+.wissen-title {
+    text-align: center;
+}
+
+
+/* ------ footer ------ */
+
+
+.footer {
+    background: #387FCC;
+	padding-top: 100px;
+}
+
+.kont__wrap {
+	margin-bottom: 45px;
+}
+
+.kont__title {
+	font-weight: 700;
+	color: #fff;
+	display: block;
+	margin-bottom: 16px;
+}
+
+.kont__item {
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.kont__item:hover {
+	color: #EFE407;
+}
+
+.footer__text {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ------ Media Queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+
+	.kont__wrap {
+		text-align: center;
+	}
+	.kont__item {
+		text-align: center;
+	}
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+
+}
+
+
+/* 320-576px */
+
+@media screen and (max-width: 576px) {
+	
 }
