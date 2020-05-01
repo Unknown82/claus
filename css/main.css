@@ -188,12 +188,9 @@ button, button:hover, button:focus, button:active
 }
 
 .transporte-text {
-
+    margin-bottom: 89px;
 }
 
-.transporte-text__preis {
-
-}
 .transporte__description {
     width: 340px;
 	background: #387FCC;
