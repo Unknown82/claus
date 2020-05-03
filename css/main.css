@@ -340,7 +340,7 @@ nav.sticky .nav-menu__item-active {
 }
 
 .slick-next {
-    right: -53px;
+    right: -23px;
 }
 
 .car-slider .slick-next {
@@ -349,7 +349,7 @@ nav.sticky .nav-menu__item-active {
 
 .slick-next:hover {
     color: #387FCC !important;
-    right: -59px;
+    right: -23px;
 }
 
 .slick-prev:before {
