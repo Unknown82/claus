@@ -56,7 +56,7 @@ $(function () {
     $('.car-slider').slick({
         dots: true,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-arrow-alt-circle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-arrow-alt-circle-right"></i></button>',
         responsive: [
@@ -67,10 +67,17 @@ $(function () {
           }
         },   
         {
-          breakpoint: 768,
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 500,
           settings: {
             slidesToShow: 1,
-            arrows: false
+            slidesToScroll: 1
           }
         }
         // You can unslick at a given breakpoint now by adding:
