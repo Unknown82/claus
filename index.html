@@ -8,27 +8,30 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <section class="header" id="header">
-    <div class="upper">
+    <nav class="nav">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-3">
-                    <a class="upper-logo" href="index.html">
+                    <a class="nav-logo" href="index.html">
                         <img src="img/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-lg-9">
-                    <ul class="upper-menu">
-                        <li class="upper-menu__wrap">
-                            <a href="index.html" class="upper-menu__item">
+                    <ul class="nav-menu">
+                        <li class="nav-menu__wrap">
+                            <a href="index.html" class="nav-menu__item upper-menu__item-active">
                                 Startseite
                             </a>
                         </li>
-                        <li class="upper-menu__wrap dropdown">
-                            <a href="" class="upper-menu__item">
+                        <li class="nav-menu__wrap dropdown">
+                            <a href="" class="nav-menu__item">
                                 Umzüge
                                 <i class="fas fa-angle-down"></i>
                             </a>
@@ -48,8 +51,8 @@
                                 <a href="WG Umzug">WG Umzug</a>
                             </div>
                         </li>
-                        <li class="upper-menu__wrap dropdown">
-                            <a href="" class="upper-menu__item">
+                        <li class="nav-menu__wrap dropdown">
+                            <a href="" class="nav-menu__item">
                                 Transporte
                                 <i class="fas fa-angle-down"></i>
                             </a>
@@ -62,18 +65,18 @@
                                 <a href="ikea-einkauf.html">IKEA Einkauf</a>
                             </div>
                         </li>
-                        <li class="upper-menu__wrap">
-                            <a href="" class="upper-menu__item">
+                        <li class="nav-menu__wrap">
+                            <a href="" class="nav-menu__item">
                                 Preisbeispiele
                             </a>
                         </li>
-                        <li class="upper-menu__wrap">
-                            <a href="" class="upper-menu__item">
+                        <li class="nav-menu__wrap">
+                            <a href="" class="nav-menu__item">
                                 Partner werden
                             </a>
                         </li>
-                        <li class="upper-menu__wrap dropdown">
-                            <a href="" class="upper-menu__item">
+                        <li class="nav-menu__wrap dropdown">
+                            <a href="" class="nav-menu__item">
                                 Kontakt
                                 <i class="fas fa-angle-down"></i>
                             </a>
@@ -86,7 +89,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
     <div class="under">
         <div class="container">
             <div class="row">
@@ -429,6 +432,51 @@
     </div>
 
 </section>
+<section class="referenz" id="referenz">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="referenz-title">
+                    Referenzen & Lobe
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 m-auto">
+                <div class="car-slider">
+                    <div class="car-slider__item">
+                        <img src="img/sebastian_deyle.jpg" alt="Sebastian Deyle">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/katja_riemann_k.jpg" alt="Katja Riemann">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/leonard_lansink_k.jpg" alt="Leonard Lansink">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/manfred-krug.jpg" alt="Manfred Krug">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/busse_jochen.jpg" alt="Busse Jochen">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/stefan_konarske.jpg" alt="Stefan Konarske">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/thomas_ulrich_k.jpg" alt="Thomas Ulrich">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/udo-walz.png" alt="Udo Walz">
+                    </div>
+                    <div class="car-slider__item">
+                        <img src="img/wolfram_teufel_k_t.jpg" alt="Wolfram Teufel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 <footer class="footer" id="footer">
     <div class="container">
         <div class="row">
@@ -563,5 +611,12 @@
         </div>
     </div>
 </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

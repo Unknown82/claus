@@ -88,24 +88,46 @@ button, button:hover, button:focus, button:active
 /* ------ Header ------ */
 
 
-.upper {
+.nav {
     background-color: #387FCC;
     padding: 10px 0;
 }
 
-.upper-menu {
+.nav-menu {
     display: flex;
     align-items: center;
 }
 
-.upper-menu__item {
+.nav-menu__item {
     color: #fff;
     padding: 29px 20px;
 }
 
-.upper-menu__item:hover {
+.nav-menu__item:hover {
     background: #EFE407;
     padding: 29px 20px;
+}
+
+.nav-menu__item-active {
+    background: #EFE407;
+    color: #387FCC;
+}
+
+nav {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+nav.sticky {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    position: fixed;
+    padding: 0;
+}
+
+nav.sticky .nav-menu__item:hover {
+    padding: 19px 20px;
 }
 
 .dropdown {
@@ -121,7 +143,7 @@ button, button:hover, button:focus, button:active
     min-width: 190px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 1px;
     margin-top: 27px;
   }
   
@@ -135,7 +157,7 @@ button, button:hover, button:focus, button:active
   .dropdown-content a:hover {
       background-color: #EFE407;
       color: #387FCC;
-      border-radius: 2px;
+      border-radius: 1px;
   }
   
   .dropdown:hover .dropdown-content {
@@ -176,7 +198,7 @@ button, button:hover, button:focus, button:active
 }
 
 
-/* ------ 2 transport ------ */
+/* ------ 2 Transport ------ */
 
 
 .transport {
@@ -264,7 +286,7 @@ button, button:hover, button:focus, button:active
 }
 
 
-/* ------ 3 wissen ------ */
+/* ------ 3 Wissen ------ */
 
 
 .wissen {
@@ -276,7 +298,20 @@ button, button:hover, button:focus, button:active
 }
 
 
-/* ------ footer ------ */
+/* ------ 4 Referenzen ------ */
+
+
+.referenz {
+    background-color: #f5f4f4;
+    padding: 100px 0;
+}
+
+.referenz-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* ------ Footer ------ */
 
 
 .footer {
