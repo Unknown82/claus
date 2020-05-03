@@ -373,7 +373,7 @@ nav.sticky .nav-menu__item-active {
     height: 16px;
     content: "";
     opacity: 1;
-    background: #EFE407;
+    background: rgb(180, 210, 255);
     border-radius: 50%;
 }
 
