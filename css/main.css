@@ -317,6 +317,71 @@ nav.sticky .nav-menu__item-active {
     margin-bottom: 70px;
 }
 
+.slick-prev, .slick-next {
+    font-size: 42px;
+    color: #387FCC;
+    width: 21px;
+    height: 28px;
+    margin-top: -14px;
+    transition: all 0.5s ease;
+}
+
+.slick-prev {
+    left: -53px;
+}
+
+.car-slider .slick-prev {
+    font-size: 20px;
+}
+
+.slick-prev:hover {
+    color: #387FCC !important;
+    left: -59px;
+}
+
+.slick-next {
+    right: -53px;
+}
+
+.car-slider .slick-next {
+    font-size: 20px;
+}
+
+.slick-next:hover {
+    color: #387FCC !important;
+    right: -59px;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.slick-dots {
+    bottom: -45px;
+}
+
+.slick-dots li button::before {
+    font-family: slick;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    content: "";
+    opacity: 1;
+    background: #EFE407;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button::before {
+    background: #387FCC;
+}
+
+
 /* ------ Footer ------ */
 
 
