@@ -129,7 +129,9 @@ nav.sticky {
 nav.sticky .nav-menu__item:hover {
     padding: 19px 20px;
 }
-
+nav.sticky .nav-menu__item-active {
+    padding: 19px 20px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -145,6 +147,10 @@ nav.sticky .nav-menu__item:hover {
     z-index: 1;
     border-radius: 1px;
     margin-top: 27px;
+  }
+  
+  nav.sticky  .dropdown-content {
+      margin-top: 17px;
   }
   
   .dropdown-content a {
