@@ -103,7 +103,7 @@ button, button:hover, button:focus, button:active
     padding: 29px 20px;
 }
 
-.upper-menu__item:hover, .upper-menu__item:focus {
+.upper-menu__item:hover {
     background: #EFE407;
     padding: 29px 20px;
 }
