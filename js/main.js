@@ -61,7 +61,7 @@ $(function () {
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-arrow-alt-circle-right"></i></button>',
         responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1200,
           settings: {
             slidesToShow: 3
           }
@@ -74,7 +74,7 @@ $(function () {
           }
         },
         {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
