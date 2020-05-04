@@ -7,12 +7,6 @@ $(function () {
     });
 
 
-    // Preloader
-    var $preloader = $('#page-preloader'),
-        $spinner   = $preloader.find('.spinner');
-    $spinner.fadeOut();
-    $preloader.delay(350).fadeOut('slow');
-
     // плавное перемещение страницы к нужному блоку
     $("a.go").click(function (e) {
         e.preventDefault();
@@ -41,17 +35,8 @@ $(function () {
         $('#exampleModal').arcticmodal();
     });
 
-    // Большой слайдер
-    
-    $('.big-slider').slick({
-        dots: true,
-        infinite: false,
-        autoplay: true,
-        prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
-    });
 
-    // Большой слайдер
+    // Slider
     
     $('.car-slider').slick({
         dots: true,
@@ -86,6 +71,4 @@ $(function () {
       ]
     });
 
-
-    
 });

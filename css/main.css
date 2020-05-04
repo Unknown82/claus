@@ -304,11 +304,47 @@ nav.sticky .nav-menu__item-active {
 }
 
 
-/* ------ 4 Referenzen ------ */
+/* ------ 4 Partner ------ */
+
+
+.work {}
+.workspace {
+	background: url('../img/partner.jpg') no-repeat center center / cover;
+	height: 450px;
+}
+
+.true {
+	background: #f5f4f4;
+	padding: 100px 0  0 100px;
+	width: 100%;
+}
+
+.true__title {
+	width: 400px;
+	line-height: 1.6em;
+	font-size: 23px;
+}
+
+.true__text {
+	margin-top: 20px;
+	margin-bottom: 32px;
+}
+
+.work-btn {
+    background: #387FCC;
+    color: #EFE407;
+    border: 2px solid #387FCC;
+}
+
+.work-btn:hover {
+    background: #EFE407;
+    color: #387FCC;
+}
+
+/* ------ 5 Referenzen ------ */
 
 
 .referenz {
-    background-color: #f5f4f4;
     padding: 100px 0;
 }
 
